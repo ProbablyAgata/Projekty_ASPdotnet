@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Agata\\Desktop\\Projekty\\Projekty_ASP_dotNET\\WebApp1\\WebApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Agata\\Desktop\\Projekty\\Projekty_ASP_dotNET\\Projekty_ASPdotnet\\WebApp1\\WebApp1.csproj",
       "projectName": "WebApp1",
-      "projectPath": "C:\\Users\\Agata\\Desktop\\Projekty\\Projekty_ASP_dotNET\\WebApp1\\WebApp1.csproj",
+      "projectPath": "C:\\Users\\Agata\\Desktop\\Projekty\\Projekty_ASP_dotNET\\Projekty_ASPdotnet\\WebApp1\\WebApp1.csproj",
       "packagesPath": "C:\\Users\\Agata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agata\\Desktop\\Projekty\\Projekty_ASP_dotNET\\WebApp1\\obj\\",
+      "outputPath": "C:\\Users\\Agata\\Desktop\\Projekty\\Projekty_ASP_dotNET\\Projekty_ASPdotnet\\WebApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Agata\\AppData\\Roaming\\NuGet\\NuGet.Config"
