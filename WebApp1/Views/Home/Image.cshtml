@@ -1,0 +1,13 @@
+@{
+    Layout = "_Layout";
+    var imageName = Context.Request.Query["name"];
+}
+
+@if (!string.IsNullOrEmpty(imageName))
+{
+    <img src="/images/@imageName" alt="Image" />
+}
+else
+{
+    <p>Invalid image name</p>
+}

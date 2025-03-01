@@ -6,7 +6,29 @@ namespace WebApp1.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    [HttpGet]
+    public IActionResult Form()
+    {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult Submit(string name, string email, string message)
+    {
+        ViewBag.Name = name;
+        ViewBag.Email = email;
+        ViewBag.Message = message;
+        return View();
+    }
+    [HttpGet]
+    public IActionResult Image(string name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return Content("Invalid image name");
+        }
+        
+        return File($"wwwroot/images/{name}", "image/jpeg");
+    }    private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
     {
